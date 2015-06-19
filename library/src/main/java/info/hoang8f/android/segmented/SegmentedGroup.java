@@ -43,7 +43,7 @@ public class SegmentedGroup extends RadioGroup {
 
         try {
             mMarginDp = (int) typedArray.getDimension(
-                    R.styleable.SegmentedGroup_border_width,
+                    R.styleable.SegmentedGroup_segment_border_width,
                     getResources().getDimension(R.dimen.radio_button_stroke_border));
 
             mCornerRadius = typedArray.getDimension(
